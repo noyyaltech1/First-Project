@@ -1,0 +1,98 @@
+/* body{
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   
+} */
+form{
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px;
+  margin: 10px;
+  padding: 30px;
+  margin-left: 30px;
+  max-width: 600px;
+  display: grid;
+  text-align: left;
+  
+  
+ 
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="radio"],
+input[type="checkbox"],
+input[type="file"]{
+  padding: 5px;
+  border: 1px solid;
+  
+}
+textarea{
+  margin-bottom: -20px;
+  padding: 5px;
+  border:1px solid;
+  resize: none;
+  box-sizing: border-box;
+}
+
+
+/* button{
+  width: 50%;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  margin-left: 70px;
+
+} */
+.drop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.drop .btn  {
+  width: auto;
+  margin: 0;
+    background: white;
+    color: black;
+    padding: 5px;
+  border: 1px solid;
+}
+
+.dropdown-content {
+  
+  flex-direction: column;
+  width: 160px;
+  border: 1px solid #ccc;
+  background: white;
+  margin-left: 120px;
+}
+
+.dropdown-content .size {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  
+}
+.field{
+  margin: left 30px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.field:hover{
+  background-color: #cccccc;
+}
+
+
