@@ -94,5 +94,7 @@ textarea{
 .field:hover{
   background-color: #cccccc;
 }
-
+.drop {
+  margin-bottom: 16px;
+}
 

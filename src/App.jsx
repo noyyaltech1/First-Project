@@ -19,7 +19,8 @@ import SearchableSelect from './components/SearchableSelect'
 import FormValidation from './components/FormValidation'
 import HookUseCallback from './components/HookUseCallback'
 import HookUsememo from './components/HookUsememo'
-
+import './components/UpdateForm'
+import UpdateForm from './components/UpdateForm'
 
 
 // //       //  const [name,setname]=useState("");
@@ -62,13 +63,13 @@ function App() {
            {/* <FormValidation/> */}
 {/* /           <DropDown/> */}
           {/* <SearchableSelect/> */}
-          <FormValidation/>
+          {/* <FormValidation/> */}
           {/* <HookUseCallback/>
           <HookUsememo/>
            */}
-          
+         <UpdateForm/>
         </div>
-<HookCounter2 />
+{/* <HookCounter2 /> */}
       
                
                  
